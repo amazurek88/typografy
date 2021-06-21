@@ -1,0 +1,44 @@
+body {
+    background-color: #e6fff9;
+}
+
+p {
+    border: 3px solid black;
+    text-indent: 30px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    margin: 30px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #ff1a1a;
+    text-align: justify;
+    line-height: 3.5em;
+}
+
+.capitalize {
+    text-transform: capitalize;
+    text-decoration: overline;
+    text-align: center;
+    word-spacing: 2em;
+}
+
+.lowercase {
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-align: right;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 3px 1px #4d79ff;
+}
+
+.sub {
+    vertical-align: sub;
+}
+
+.sup {
+    vertical-align: super;
+}
